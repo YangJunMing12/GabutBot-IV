@@ -2519,40 +2519,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 }
             }
             break
-            case 'nulis': case 'nulisteks': {
-                let jawab = `Pilih Nulis Bro\n*1.nuliskanan (tekslu)*\n*2.nuliskiri (tekslu)*\n*3.foliokanan (tekslu)*\n*4.foliokiri (tekslu)*\n\n_Silahkan Dipilih_`
-                let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'MAGER AMAT🗿' }, type: 1 }]
-            await naze.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {quoted: fkontak})
-            }
-            break
-            case 'nuliskanan': {
-            m.reply(mess.wait)
-            const tulisan = body.slice(12)
-            const splitText = tulisan.replace(/(\S+\s*){1,9}/g, '$&\n')
-            const fixHeight = splitText.split('\n').slice(0, 31).join('\n')
-            spawn('convert', [
-                './media/image/nulis/images/buku/sebelumkanan.jpg',
-                '-font',
-                './image/nulis/font/Indie-Flower.ttf',
-                '-size',
-                '960x1280',
-                '-pointsize',
-                '23',
-                '-interline-spacing',
-                '2',
-                '-annotate',
-                '+128+129',
-                fixHeight,
-                './media/image/nulis/images/buku/setelahkanan.jpg'
-            ])
-                .on('error', () => m.reply('Gagal Karena Error'))
-                .on('exit', () => {
-                    naze.sendMessage(m.chat, { caption: global.mess.success, image: fs.readFileSync('./media/nulis/images/buku/setelahkanan.jpg') }, m)
-                    
-                })
-            db.data.users[m.sender].limit -= 1
-}
-            break
+            
             case 'emoji': {
             	if (!text) throw 'Mana Emojinya?'
 			if (!q) return m.reply('emojinya?')
