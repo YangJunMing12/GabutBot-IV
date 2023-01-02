@@ -119,7 +119,7 @@ $ node .
 |       ✅        |  ZippyShare Download       |
 |       ✅        |  Get Music or Get Video        |
 
-... and more!
+... and more! Menfess, fun menu ready 
 
 ## ❗ Warning
 WhatsApp bot is still in the development stage, so there are a few bugs
