@@ -1,7 +1,7 @@
 # BOT APAKAH INI?
 Bot ini adalah bot MD (Multi-Device), sehingga bot ini dapat digunakan meskipun hp pengguna mati. Bot ini masih dalam pengembangan (baileys beta) sehingga terdapat masih banyak bug di dalamnya. Bot ini No Encrypt, sehingga pengguna dapat recode (asal jangan dijual juga) dan dapat menambah fitur tertentu dengan apikey. 
 
-# GabutBot-IV
+# GabutBot IV
 Full Featured Bot Updated Script 🤖
 
 ## NOTE
@@ -23,7 +23,7 @@ This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](h
 
 ```bash
 npm install yarn --global
-git clone https://github.com/YangJunMing12/GabutBot-MD
+git clone https://github.com/YangJunMing12/GabutBot-IV
 cd GabutBot-MD
 yarn
 npm start
@@ -45,7 +45,7 @@ apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
-git clone https://github.com/YangJunMing12/GabutBot-MD
+git clone https://github.com/YangJunMing12/GabutBot-IV
 cd GabutBot-MD
 npm install
 ```
